@@ -42,7 +42,20 @@ a {
    ======================================== */
 
 #hero {
+    /*Aula 5*/
+    /*padding: 30px;
+    margin: 20px;
+    border: 2px solid black;*/
     background-color: #e8f4f8;
+}
+
+#hero img {
+    /*width: 300px;
+    height: auto;*/
+}
+
+* {
+    /*box-sizing: border-box;*/
 }
 
 #sobre {
@@ -73,3 +86,31 @@ footer {
 footer p {
     color: white;
 }
+
+/* Aula 5 */
+body{
+    font-family: Arial, sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+}
+
+/* Aula 6 */
+header {
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: row;*/
+
+}
+
+nav {
+    /*display: flex;
+    gap: 20px;*/
+}
+
+.projetos-grid {
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;*/
+}
+
